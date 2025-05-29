@@ -302,6 +302,98 @@ configuracoes = [
         "pasta_entrada": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Emanuele\de novo\2 voltas e meia\25 mm\1 frequência\200 Hz\Próximo\100% do volume",
         "pasta_saida": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\1 frequência\200 Hz\Próximo\100% do volume",
         "num_arquivos": 10
+    },{
+        "pasta_entrada": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Emanuele\de novo\2 voltas e meia\25 mm\1 frequência\200 Hz\Próximo\50% do volume",
+        "pasta_saida": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\1 frequência\200 Hz\Próximo\50% do volume",
+        "num_arquivos": 10
+    },{
+        "pasta_entrada": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Emanuele\de novo\2 voltas e meia\25 mm\1 frequência\200 Hz\1.5 cm de distância\100% do volume",
+        "pasta_saida": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\1 frequência\200 Hz\1.5 cm de distância\100% do volume",
+        "num_arquivos": 10
+    },{
+        "pasta_entrada": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Emanuele\de novo\2 voltas e meia\25 mm\1 frequência\200 Hz\1.5 cm de distância\70% do volume",
+        "pasta_saida": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\1 frequência\200 Hz\1.5 cm de distância\70% do volume",
+        "num_arquivos": 10
+    },{
+        "pasta_entrada": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Emanuele\de novo\2 voltas e meia\25 mm\1 frequência\440 Hz\Próximo\100% do volume",
+        "pasta_saida": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\1 frequência\440 Hz\Próximo\100% do volume",
+        "num_arquivos": 10
+    },{
+        "pasta_entrada": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Emanuele\de novo\2 voltas e meia\25 mm\1 frequência\440 Hz\Próximo\50% do volume",
+        "pasta_saida": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\1 frequência\440 Hz\Próximo\50% do volume",
+        "num_arquivos": 10
+    },{
+        "pasta_entrada": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Emanuele\de novo\2 voltas e meia\25 mm\1 frequência\440 Hz\1.5 cm de distância\100% do volume",
+        "pasta_saida": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\1 frequência\440 Hz\1.5 cm de distância\100% do volume",
+        "num_arquivos": 10
+    },{
+        "pasta_entrada": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Emanuele\de novo\2 voltas e meia\25 mm\1 frequência\440 Hz\1.5 cm de distância\50% do volume",
+        "pasta_saida": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\1 frequência\440 Hz\1.5 cm de distância\50% do volume",
+        "num_arquivos": 10
+    },{
+        "pasta_entrada": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Emanuele\de novo\2 voltas e meia\25 mm\1 frequência\510 Hz\Próximo\50% do volume",
+        "pasta_saida": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\1 frequência\510 Hz\Próximo\50% do volume",
+        "num_arquivos": 10
+    },{
+        "pasta_entrada": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Emanuele\de novo\2 voltas e meia\25 mm\1 frequência\510 Hz\Próximo\100% do volume",
+        "pasta_saida": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\1 frequência\510 Hz\Próximo\100% do volume",
+        "num_arquivos": 10
+    },{
+        "pasta_entrada": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Emanuele\de novo\2 voltas e meia\25 mm\1 frequência\550 Hz\Próximo\90 graus\100% do volume",
+        "pasta_saida": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\1 frequência\550 Hz\Próximo\90 graus\100% do volume",
+        "num_arquivos": 10
+    },{
+        "pasta_entrada": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Emanuele\de novo\2 voltas e meia\25 mm\1 frequência\550 Hz\Próximo\90 graus\50% do volume",
+        "pasta_saida": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\1 frequência\550 Hz\Próximo\90 graus\50% do volume",
+        "num_arquivos": 10
+    },{
+        "pasta_entrada": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Emanuele\de novo\2 voltas e meia\25 mm\1 frequência\550 Hz\Próximo\120 graus\50% do volume",
+        "pasta_saida": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\1 frequência\550 Hz\Próximo\120 graus\50% do volume",
+        "num_arquivos": 10
+    },{
+        "pasta_entrada": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Emanuele\de novo\2 voltas e meia\25 mm\1 frequência\550 Hz\Próximo\120 graus\100% do volume",
+        "pasta_saida": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\1 frequência\550 Hz\Próximo\120 graus\100% do volume",
+        "num_arquivos": 10
+    },{
+        "pasta_entrada": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Emanuele\de novo\2 voltas e meia\25 mm\1 frequência\550 Hz\2.5 cm de distância\50% do volume",
+        "pasta_saida": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\1 frequência\550 Hz\2.5 cm de distância\50% do volume",
+        "num_arquivos": 10
+    },{
+        "pasta_entrada": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Emanuele\de novo\2 voltas e meia\25 mm\1 frequência\550 Hz\2.5 cm de distância\100% do volume",
+        "pasta_saida": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\1 frequência\550 Hz\2.5 cm de distância\100% do volume",
+        "num_arquivos": 10
+    },{
+        "pasta_entrada": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Emanuele\de novo\2 voltas e meia\25 mm\2 frequências\300 e 305 Hz\1.5 cm de distância\100% do volume",
+        "pasta_saida": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\2 frequências\300 e 305 Hz\1.5 cm de distância\100% do volume",
+        "num_arquivos": 10
+    },{
+        "pasta_entrada": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Emanuele\de novo\2 voltas e meia\25 mm\2 frequências\300 e 305 Hz\1.5 cm de distância\50% do volume",
+        "pasta_saida": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\2 frequências\300 e 305 Hz\1.5 cm de distância\50% do volume",
+        "num_arquivos": 10
+    },{
+        "pasta_entrada": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Emanuele\de novo\2 voltas e meia\25 mm\2 frequências\300 e 305 Hz\Próximo\90 graus\100% do volume",
+        "pasta_saida": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\2 frequências\300 e 305 Hz\Próximo\90 graus\100% do volume",
+        "num_arquivos": 10
+    },{
+        "pasta_entrada": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Emanuele\de novo\2 voltas e meia\25 mm\2 frequências\300 e 305 Hz\Próximo\90 graus\75% do volume",
+        "pasta_saida": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\2 frequências\300 e 305 Hz\Próximo\90 graus\75% do volume",
+        "num_arquivos": 10
+    },{
+        "pasta_entrada": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Emanuele\de novo\2 voltas e meia\25 mm\2 frequências\300 e 305 Hz\Próximo\90 graus\50% do volume",
+        "pasta_saida": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\2 frequências\300 e 305 Hz\Próximo\90 graus\50% do volume",
+        "num_arquivos": 10
+    },{
+        "pasta_entrada": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Emanuele\de novo\2 voltas e meia\25 mm\2 frequências\300 e 305 Hz\Próximo\115 graus\100% do volume",
+        "pasta_saida": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\2 frequências\300 e 305 Hz\Próximo\115 graus\100% do volume",
+        "num_arquivos": 10
+    },{
+        "pasta_entrada": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Emanuele\de novo\2 voltas e meia\25 mm\2 frequências\320 e 325 Hz\100% do volume",
+        "pasta_saida": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\2 frequências\320 e 325 Hz\100% do volume",
+        "num_arquivos": 10
+    },{
+        "pasta_entrada": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Emanuele\de novo\2 voltas e meia\25 mm\2 frequências\320 e 325 Hz\50% do volume",
+        "pasta_saida": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\2 frequências\320 e 325 Hz\50% do volume",
+        "num_arquivos": 10
     }
 
     

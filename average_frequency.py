@@ -36,19 +36,22 @@ def process_fft(pasta, num_arquivos, titulo_grafico):
         # Salvar o resultado
         FFT_media.to_excel(os.path.join(pasta, "FFT_media.xlsx"), index=False)
 
-        # # Gerar o gráfico
-        # plt.figure(figsize=(11, 7))
-        # plt.plot(FFT_media['Frequencia'], FFT_media['Amplitude'])
-        # plt.title(titulo_grafico)
-        # plt.xlabel("Frequência (Hz)")
-        # plt.ylabel("Amplitude (dB)")
-        # # Adicionar anotação para o pico
-        # plt.annotate(f'Pico: {frequencia_pico:.2f} Hz, {amplitude_pico:.2f} dB', 
-        #             xy=(frequencia_pico, amplitude_pico), 
-        #             xytext=(frequencia_pico + 50, amplitude_pico - 3),
-        #             arrowprops=dict(facecolor='blue', shrink=0.005))
-        # plt.grid()
-        # plt.show()
+        # Gerar o gráfico
+        plt.figure(figsize=(11, 7))
+        plt.plot(FFT_media['Frequencia'], FFT_media['Amplitude'])
+        plt.title(titulo_grafico)
+        plt.xlabel("Frequência (Hz)")
+        plt.ylabel("Amplitude (dB)")
+        # Adicionar anotação para o pico
+        plt.annotate(f'Pico: {frequencia_pico:.2f} Hz, {amplitude_pico:.2f} dB', 
+                    xy=(frequencia_pico, amplitude_pico), 
+                    xytext=(frequencia_pico + 50, amplitude_pico - 3),
+                    arrowprops=dict(facecolor='blue', shrink=0.005))
+        plt.xlim(0, 1000)  # <-- aqui você limita o eixo X de 0 a 1000
+        plt.grid()
+        plt.show()
+
+        print("Média FFT calculada e salva com sucesso.")
 
 # Lista de configurações para processar múltiplas pastas
 configuracoes = [
@@ -273,7 +276,6 @@ configuracoes = [
         "pasta": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\teste março 2025\1 frequência\510 Hz\Próximo\100% do volume",
         "num_arquivos": 9,
         "titulo_grafico": f"(44) 510 hz 100% do volume"
-
     },
     {
         "pasta": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\20 mm\1 frequência\100 Hz\Próximo\100% do volume",
@@ -342,7 +344,99 @@ configuracoes = [
     },{
         "pasta": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\1 frequência\200 Hz\Próximo\100% do volume",
         "num_arquivos": 10,
-        "titulo_grafico": f"(61) 550 hz 100% do volume"
+        "titulo_grafico": f"(61) 200 hz próximo 100% do volume"
+    },{
+        "pasta": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\1 frequência\200 Hz\Próximo\50% do volume",
+        "num_arquivos": 10,
+        "titulo_grafico": f"(62) 200 hz próximo 50% do volume"
+    },{
+        "pasta": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\1 frequência\200 Hz\1.5 cm de distância\100% do volume",
+        "num_arquivos": 10,
+        "titulo_grafico": f"(63) 200 hz 1.5 cm de distância 100% do volume"
+    },{
+        "pasta": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\1 frequência\200 Hz\1.5 cm de distância\70% do volume",
+        "num_arquivos": 10,
+        "titulo_grafico": f"(64) 200 hz 1.5 cm de distância 70% do volume"
+    },{
+        "pasta": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\1 frequência\440 Hz\Próximo\100% do volume",
+        "num_arquivos": 10,
+        "titulo_grafico": f"(65) 440 hz próximo 100% do volume"
+    },{
+        "pasta": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\1 frequência\440 Hz\Próximo\50% do volume",
+        "num_arquivos": 10,
+        "titulo_grafico": f"(66) 440 hz próximo 50% do volume"
+    },{
+        "pasta": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\1 frequência\440 Hz\1.5 cm de distância\100% do volume",
+        "num_arquivos": 10,
+        "titulo_grafico": f"(67) 440 hz 1.5 cm de distância 100% do volume"
+    },{
+        "pasta": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\1 frequência\440 Hz\1.5 cm de distância\50% do volume",
+        "num_arquivos": 10,
+        "titulo_grafico": f"(68) 440 hz 1.5 cm de distância 50% do volume"
+    },{
+        "pasta": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\1 frequência\510 Hz\Próximo\50% do volume",
+        "num_arquivos": 10,
+        "titulo_grafico": f"(69) 510 hz próximo 50% do volume"
+    },{
+        "pasta": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\1 frequência\510 Hz\Próximo\100% do volume",
+        "num_arquivos": 10,
+        "titulo_grafico": f"(70) 510 hz próximo 100% do volume"
+    },{
+        "pasta": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\1 frequência\550 Hz\Próximo\90 graus\100% do volume",
+        "num_arquivos": 10,
+        "titulo_grafico": f"(71) 550 hz próximo 90 graus 100% do volume"
+    },{
+        "pasta": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\1 frequência\550 Hz\Próximo\90 graus\50% do volume",
+        "num_arquivos": 10,
+        "titulo_grafico": f"(72) 550 hz próximo 90 graus 50% do volume"
+    },{
+        "pasta": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\1 frequência\550 Hz\Próximo\120 graus\50% do volume",
+        "num_arquivos": 10,
+        "titulo_grafico": f"(73) 550 hz próximo 120 graus 50% do volume"
+    },{
+        "pasta": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\1 frequência\550 Hz\Próximo\120 graus\100% do volume",
+        "num_arquivos": 10,
+        "titulo_grafico": f"(74) 550 hz próximo 120 graus 100% do volume"
+    },{
+        "pasta": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\1 frequência\550 Hz\2.5 cm de distância\50% do volume",
+        "num_arquivos": 10,
+        "titulo_grafico": f"(75) 550 hz 2.5 cm de distância 50% do volume"
+    },{
+        "pasta": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\1 frequência\550 Hz\2.5 cm de distância\100% do volume",
+        "num_arquivos": 10,
+        "titulo_grafico": f"(76) 550 hz 2.5 cm de distância 100% do volume"
+    },{
+        "pasta": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\2 frequências\300 e 305 Hz\1.5 cm de distância\100% do volume",
+        "num_arquivos": 10,
+        "titulo_grafico": f"(77) 300 e 305 hz 1.5 cm de distância 100% do volume"
+    },{
+        "pasta": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\2 frequências\300 e 305 Hz\1.5 cm de distância\50% do volume",
+        "num_arquivos": 10,
+        "titulo_grafico": f"(78) 300 e 305 hz 1.5 cm de distância 50% do volume"
+    },{
+        "pasta": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\2 frequências\300 e 305 Hz\Próximo\90 graus\100% do volume",
+        "num_arquivos": 10,
+        "titulo_grafico": f"(79) 300 e 305 hz próximo 90 graus 100% do volume"
+    },{
+        "pasta": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\2 frequências\300 e 305 Hz\Próximo\90 graus\75% do volume",
+        "num_arquivos": 10,
+        "titulo_grafico": f"(80) 300 e 305 hz próximo 90 graus 75% do volume"
+    },{
+        "pasta": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\2 frequências\300 e 305 Hz\Próximo\90 graus\50% do volume",
+        "num_arquivos": 10,
+        "titulo_grafico": f"(81) 300 e 305 hz próximo 90 graus 50% do volume"
+    },{
+        "pasta": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\2 frequências\300 e 305 Hz\Próximo\115 graus\100% do volume",
+        "num_arquivos": 10,
+        "titulo_grafico": f"(82) 300 e 305 hz próximo 115 graus 100% do volume"
+    },{
+        "pasta": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\2 frequências\320 e 325 Hz\100% do volume",
+        "num_arquivos": 10,
+        "titulo_grafico": f"(83) 320 e 325 hz 100% do volume"
+    },{
+        "pasta": r"C:\Users\emanu\OneDrive\Área de Trabalho\IC\IC Milena\Manus\de novo\2 voltas e meia\25 mm\2 frequências\320 e 325 Hz\50% do volume",
+        "num_arquivos": 10,
+        "titulo_grafico": f"(84) 320 e 325 hz 50% do volume"
     }
 
 
