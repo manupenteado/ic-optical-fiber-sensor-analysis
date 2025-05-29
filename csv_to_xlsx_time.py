@@ -1,6 +1,4 @@
 import pandas as pd
-import matplotlib.pyplot as plt
-import numpy as np
 import os
 
 def transformar_onda(pasta_entrada, pasta_saida, num_arquivos):
